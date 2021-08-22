@@ -1,0 +1,36 @@
+{
+  "name": "golden_dart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bonescript": "^0.7.1",
+    "epoll": "^2.0.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "fluent-ffmpeg-multistream": "^1.0.0",
+    "forever": "^1.0.0",
+    "forever-monitor": "^1.7.1",
+    "get-user-media-promise": "^1.1.4",
+    "jsmpeg": "^1.0.0",
+    "jsmpeg-player": "^3.0.3",
+    "line-reader": "^0.4.0",
+    "microphone-stream": "^6.0.1",
+    "netcat": "^1.4.0",
+    "node-atlas": "^2.0.7",
+    "node-fetch": "^2.6.1",
+    "node-rtsp-stream": "0.0.9",
+    "node-ssh": "^6.0.0",
+    "serialport": "^7.1.5",
+    "simple-node-logger": "^18.12.22",
+    "underscore": "^1.9.1",
+    "wol": "^1.0.6",
+    "wrtc": "^0.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Adrien Prevost",
+  "license": "ISC"
+}

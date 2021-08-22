@@ -1,0 +1,21 @@
+{
+    "httpSecure": true,
+    "httpSecureKeyRelativePath": "security/key.pem",
+    "httpSecureCertificateRelativePath": "security/cert.pem",
+    "httpPort": 7000,
+    "socketClientFile": "/node-atlas/socket.io.js",
+    "socketServerOptions": { "transports": ["polling", "websocket"] },
+    "controller": "common.js",
+    "routes": {
+        "/": {
+            "view": "index.htm",
+            "controller": "index.js"
+        }
+    },
+    "session" :
+    {
+      "key" : "user.sid",
+      "secret" : "secret personnel"
+    }
+
+}

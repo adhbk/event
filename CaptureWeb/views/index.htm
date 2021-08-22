@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+
+        <meta charset="utf-8" >
+        <meta author="Adrien Prévost - EVENT+" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheets/bootstrap.css">
+        <link rel="stylesheet" href="stylesheets/adri.css">
+        <link rel="stylesheet" href="stylesheets/">
+        <title> Capture </title>
+    </head>
+    <body>
+      <canvas id="canvas"></canvas>
+        <div class="layout">
+          <div id="section-container" class="section"> 
+            <!--<div id="titre_page">
+              
+            <h1>Golden Dart</h1>
+            <h2>Système de contrôle</h2>
+            
+          </div>-->
+            
+            <button id="BoutonGauche" class="btn btn-success" type="button">Gauche</button>
+            <button id="BoutonDroite" class="btn btn-success" type="button">Droite</button>
+            <button id="BoutonHaut"   class="btn btn-success" type="button">Haut</button>
+            <button id="BoutonBas"    class="btn btn-success" type="button">Bas</button>
+            <button id="BoutonZoomIn" class="btn btn-success" type="button">Zoom In</button>
+            <button id="BoutonZoomOut" class="btn btn-success" type="button">Zoom Out</button>
+            <button id="BoutonStop"   class="btn btn-danger"  type="button">Stop</button>
+            <br>
+            <button id="BoutonGaucheHover"  class="btn btn-success" type="button">Gauche</button>
+            <button id="BoutonDroiteHover"  class="btn btn-success" type="button">Droite</button>
+            <button id="BoutonHautHover"    class="btn btn-success" type="button">Haut</button>
+            <button id="BoutonBasHover"     class="btn btn-success" type="button">Bas</button>
+            <button id="BoutonZoomInHover"  class="btn btn-success" type="button">Zoom In</button>
+            <button id="BoutonZoomOutHover" class="btn btn-success" type="button">Zoom Out</button>
+            <br>
+            <button id="BoutonHome" class="btn btn-success" type="button">Home</button>
+            <br>
+            <button id="BoutonEnregistrer"        class="btn btn-success" type="button">Enregistrer</button>
+            <button id="BoutonPause"              class="btn btn-success" type="button">Pause</button>
+            <button id="BoutonReprendre"          class="btn btn-success" type="button">Reprendre</button>
+            <button id="BoutonStopEnregistrement" class="btn btn-danger"  type="button">Stop Enregistrement</button>
+
+            <button id="BoutonCamera1" class="btn"  type="button">Camera 1</button>
+            <button id="BoutonCamera2" class="btn"  type="button">Camera 2</button>
+
+            <button id="my-start-button" class="btn btn-success"  type="button">Start Voix de dieu</button>
+            <button id="my-stop-button" class="btn btn-danger"  type="button">Stop Voix de dieu</button>
+            
+            
+
+
+            <div class="section-container">
+                <i><div class="content"></div></i>
+              </div>
+            <br>
+            <!--
+            <h2><div class="nom_du_curseur"></div></h2>
+            <input class="Curseur" type="range" value="15" max="100" min="0" step="5">
+            <i><div class="valeur_du_curseur"></div></i>
+          -->
+          </div>
+          <br>
+          <div class="section-container">
+            <h2>Dynamise</h2>
+          </div>
+        </div>
+        <script src="socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="node-atlas/socket.io.js"></script>
+        <script type="text/javascript" src="javascripts/jsmpeg-player.js"></script>
+        <script type="text/javascript" src="javascripts/bundle.js"></script>
+
+        <script type="text/javascript" src="javascripts/index.js"></script>
+
+
+    </body>
+</html>
