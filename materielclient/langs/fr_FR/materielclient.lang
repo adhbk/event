@@ -1,0 +1,91 @@
+# Copyright (C) 2021 Adrien PREVOST <adrien.prev28@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleMaterielClientName'
+ModuleMaterielClientName = MaterielClient
+# Module description 'ModuleMaterielClientDesc'
+ModuleMaterielClientDesc = Description de MaterielClient
+
+#
+# Page d'administration
+#
+MaterielClientSetup = Configuration du module MaterielClient
+Settings = Réglages
+MaterielClientSetupPage = Page de configuration du module MaterielClient
+
+#
+# Page À propos
+#
+About = À propos
+MaterielClientAbout = À propos de MaterielClient
+MaterielClientAboutPage = Page à propos de MaterielClient
+
+#
+# Page d'exemple
+#
+MyPageName = Nom de ma page
+
+#
+# Box d'exemple
+#
+MyWidget = Mon widget
+MyWidgetDescription = Description de mon widget
+
+
+#
+# Page Tiers
+#
+Materiel = Matériel
+
+#
+# Page Matériel
+#
+DateInstallation = Date d'installation
+DureeGarantie = Durée de garantie
+ChargeTotaleKg = Charge totale en kg
+TonnageEquivalentCO2 = Tonnage équivalent CO2
+Modele = Modèle
+NumeroSerie = Numéro de série
+TypeClim = Type de Clim
+PoseParNous = Posé par nous
+DateDemantelement = Date de démantèlement
+Puissance = Puissance frigorifique / calorifique en kW
+ConfirmCloneMateriel = Êtes-vous sûr de vouloir cloner ce matériel?
+ConfirmDeleteMateriel = Êtes-vous sûr de vouloir supprimer ce matériel?
+
+#
+# Page Intervention
+#
+TypeIntervention = Titre
+DateIntervention = Date de l'Intervention
+ConfirmCloneIntervention = Êtes-vous sûr de vouloir cloner cette intervention?
+ConfirmDeleteIntervention = Êtes-vous sûr de vouloir supprimer cette intervention?
+#
+# Page Groupe
+#
+NomGroupe = Nom du Groupe
+Exterieur = Extérieur
+Interieur = Intérieur
+ConfirmDeleteGroupeMateriels = Êtes-vous sûr de vouloir supprimer cet ensemble?
+
+#
+# Page module global
+#
+MaterielClient = Parc matériel client
+
